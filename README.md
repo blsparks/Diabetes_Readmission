@@ -1,4 +1,4 @@
-# Diabetes_Readmission
+# Diabetes Readmission
 # 1. What it is
 This project compares Logistic Regression and Random Forest models to determine which patients that have been diagnosed with diabetes have a higher chance of readmission. 
 
