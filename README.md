@@ -6,7 +6,7 @@ This project analyzes hospital records of patients diagnosed with diabetes to pr
 
 ## Dataset
 
-The dataset contains hospital records for diabetic patients including demographic information, diagnoses, medications, and previous hospital visits. The target variable indicates whether a patient was readmitted after discharge.
+The dataset contains hospital records for diabetic patients including demographic information, diagnoses, number of medications, and previous hospital visits. The target variable indicates whether a patient was readmitted after discharge using 30 days as a benchmark.
 
 ## Methods
 
@@ -33,7 +33,7 @@ The workflow includes:
 
 ## Results
 
-The models were evaluated using metrics such as accuracy, precision, recall, and F1-score. Random Forest performed better overall in predicting patient readmission.
+The models were evaluated using metrics such as accuracy, precision, recall, and F1-score. Random Forest performed better overall in predicting patient readmission. The model was recall optimized so it is less likely to miss someone who would have benefitted from extra care.
 
 ## How to Run
 
